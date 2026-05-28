@@ -1,5 +1,4 @@
 # 💧 Water Intake Predictor
-
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-green?style=for-the-badge&logo=fastapi)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
