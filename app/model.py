@@ -5,7 +5,6 @@ from io import StringIO
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
-
 csv_data = """temperature,weight_kg,exercise_minutes,water_liters
 20,60,30,2.5
 25,70,45,3.0
@@ -57,7 +56,6 @@ csv_data = """temperature,weight_kg,exercise_minutes,water_liters
 26,70,45,3.0
 34,86,69,4.0
 18,55,19,2.1"""
-
 def train_and_save():
     df = pd.read_csv(StringIO(csv_data))
 
