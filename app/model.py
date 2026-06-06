@@ -76,6 +76,5 @@ def train_and_save():
     os.makedirs("model", exist_ok=True)
     joblib.dump(model, "model/water_model.pkl")
     print("Model saved to model/water_model.pkl")
-
 if __name__ == "__main__":
     train_and_save()
