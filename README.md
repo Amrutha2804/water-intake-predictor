@@ -26,7 +26,6 @@ An intelligent **Machine Learning-powered REST API** that predicts your daily wa
 - pip package manager
 
 ### Installation
-
 1. **Clone the repository**
 ```bash
 git clone https://github.com/Amrutha2804/water-intake-predictor.git
