@@ -41,3 +41,4 @@ def predict(data: PredictRequest):
         predicted_water_liters=prediction,
         message=f"You should drink approximately {prediction} liters of water today."
     )
+    
