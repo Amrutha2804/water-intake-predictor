@@ -10,7 +10,9 @@ app = FastAPI(
     version="1.0.0"
 )
 
+
 MODEL_PATH = "model/water_model.pkl"
+
 
 def load_model():
     if not os.path.exists(MODEL_PATH):
